@@ -11,16 +11,18 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 - Nome: Ronaldo Coelho Junior
 - Matricula: 898895
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Proposta de projeto escolhida: Pessoa - Autor e suas Obras
+- Breve descrição sobre seu projeto: O projeto tem como objetivo apresentar dinamicamente as obras do autor Sidney Sheldon, utilizando dados vindos de um CRUD com JSON Server.
+
 
 **Print da tela com a implementação**
 
 << Coloque aqui uma breve explicação da implementação feita nessa etapa>>
 
-    Nesta etapa foi implementada a funcionalidade dinâmica utilizando as bibliotecas FullCalendar e Chart.js. O calendário exibe os lançamentos das obras a partir do CRUD (db.json) e o gráfico apresenta as categorias das obras de forma interativa.
+- Nesta etapa foi implementada a funcionalidade dinâmica utilizando as bibliotecas FullCalendar e Chart.js. O calendário exibe os lançamentos das obras a partir do CRUD (db.json) e o gráfico apresenta as categorias das obras de forma interativa.
 
 <<  COLOQUE A IMAGEM TELA 1 AQUI >>
 ![Calendário de Lançamentos](public/assets/image/printTesteCRUD01.png)
+
 <<  COLOQUE A IMAGEM TELA 2 AQUI >>
 ![Calendário de Lançamentos](public/assets/image/printTesteCRUD02.png)
