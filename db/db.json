@@ -1,18 +1,289 @@
 {
-  "usuarios": [
+  "obras": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": "1",
+      "titulo": "A Outra Face",
+      "descricao": "Um romance sobre escândalos e segredos de Hollywood.",
+      "imagem": "assets/image/1.jpg",
+      "detalhes": "Publicado em 1970, foi seu primeiro romance de sucesso.",
+      "fotos": [
+        "assets/image/1a.jpg",
+        "assets/image/1b.jpg",
+        "assets/image/1c.jpg"
+      ],
+      "ano": 1970,
+      "resumo": "A outra face é um thriller psicologicamente intenso. Vencedor do Edgar Allan Poe, um dos mais importantes prêmios para escritores de mistério e suspense, o livro conta a história de Judd Stevens...",
+      "destaque": true
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "2",
+      "titulo": "O Outro Lado da Meia-Noite",
+      "descricao": "Drama de vingança e paixão ambientado na 2ª Guerra Mundial.",
+      "imagem": "assets/image/2.jpg",
+      "detalhes": "Publicado em 1973, virou filme em 1977.",
+      "fotos": [
+        "assets/image/2a.jpg",
+        "assets/image/2b.jpg",
+        "assets/image/2c.jpg"
+      ],
+      "ano": 1973,
+      "resumo": "A sensual Noelle é uma famosa atriz que sai dos bairros pobres de Marselha...",
+      "destaque": true
+    },
+    {
+      "id": "3",
+      "titulo": "Um Estranho no Espelho",
+      "descricao": "Explora a vida de um comediante e uma bela atriz.",
+      "imagem": "assets/image/3.jpg",
+      "detalhes": "Publicado em 1976.",
+      "fotos": [
+        "assets/image/3a.jpg",
+        "assets/image/3b.jpg",
+        "assets/image/3c.jpg"
+      ],
+      "ano": 1976,
+      "resumo": "Em Um Estranho no Espelho, Sidney Sheldon nos presenteia com uma história emocionante...",
+      "destaque": false
+    },
+    {
+      "id": "4",
+      "titulo": "A Herdeira",
+      "descricao": "Os rastros da misteriosa morte do empresário Sam Roffe perturbam a vida de sua filha Elizabeth.",
+      "imagem": "assets/image/4.jpg",
+      "detalhes": "Publicado em 1977.",
+      "fotos": [
+        "assets/image/4a.jpg",
+        "assets/image/4b.jpg",
+        "assets/image/4c.jpg"
+      ],
+      "ano": 1977,
+      "resumo": "A história gira em torno de Elizabeth Roffe, filha do empresário Sam Roffe, que é encontrado morto sob circunstâncias misteriosas...",
+      "destaque": false
+    },
+    {
+      "id": "5",
+      "titulo": "A Ira dos Anjos",
+      "descricao": "Uma jovem advogada entra no mundo perigoso da máfia.",
+      "imagem": "assets/image/5.jpg",
+      "detalhes": "Publicado em 1980.",
+      "fotos": [
+        "assets/image/5a.jpg",
+        "assets/image/5b.jpg",
+        "assets/image/5c.jpg"
+      ],
+      "ano": 1980,
+      "resumo": "A Ira dos Anjos é uma obra intrigante escrita por Sidney Sheldon...",
+      "destaque": true
+    },
+    {
+      "id": "6",
+      "titulo": "O Reverso da Medalha",
+      "descricao": "Kate Black é símbolo do sucesso, uma linda mulher que transformou sua herança em império internacional.",
+      "imagem": "assets/image/6.jpg",
+      "detalhes": "Publicado em 1982.",
+      "fotos": [
+        "assets/image/6a.jpg",
+        "assets/image/6b.jpg",
+        "assets/image/6c.jpg"
+      ],
+      "ano": 1982,
+      "resumo": "Começa com o personagem Jamie McGregor, um garoto pobre, mas honesto e que sonhava em ser rico...",
+      "destaque": false
+    },
+    {
+      "id": "7",
+      "titulo": "Se Houver Amanhã",
+      "descricao": "Tracy Whitney enfrenta vingança e se torna uma vigarista brilhante.",
+      "imagem": "assets/image/7.jpg",
+      "detalhes": "Publicado em 1985.",
+      "fotos": [
+        "assets/image/7a.jpg",
+        "assets/image/7b.jpg",
+        "assets/image/7c.jpg"
+      ],
+      "ano": 1985,
+      "resumo": "Tracy é uma jovem idealista, trabalha em um banco e está noiva do socialite Charles Stanhope III...",
+      "destaque": false
+    },
+    {
+      "id": "8",
+      "titulo": "Um Capricho dos Deuses",
+      "descricao": "Estreitar as relações com os países da Cortina de Ferro.",
+      "imagem": "assets/image/8.jpg",
+      "detalhes": "Publicado em 1987.",
+      "fotos": [
+        "assets/image/8a.jpg",
+        "assets/image/8b.jpg",
+        "assets/image/8c.jpg"
+      ],
+      "ano": 1987,
+      "resumo": "A trama se desenrola em torno de um ambicioso e envolvente mundo de teatro, glamour e intrigas...",
+      "destaque": false
+    },
+    {
+      "id": "9",
+      "titulo": "As Areias do Tempo",
+      "descricao": "Conflito entre o guerrilheiro Jaime Miró e o repressor governista Ramón Acoca.",
+      "imagem": "assets/image/9.jpg",
+      "detalhes": "Publicado em 1988.",
+      "fotos": [
+        "assets/image/9a.jpg",
+        "assets/image/9b.jpg",
+        "assets/image/9c.jpg"
+      ],
+      "ano": 1988,
+      "resumo": "O romance apresenta uma narrativa envolvente que mistura drama, romance e mistério...",
+      "destaque": false
+    },
+    {
+      "id": "10",
+      "titulo": "Lembranças da Meia-Noite",
+      "descricao": "Continuação de O Outro Lado da Meia-Noite.",
+      "imagem": "assets/image/10.jpg",
+      "detalhes": "Publicado em 1979.",
+      "fotos": [
+        "assets/image/10a.jpg",
+        "assets/image/10b.jpg",
+        "assets/image/10c.jpg"
+      ],
+      "ano": 1979,
+      "resumo": "A sinistra rua Tung Tau Tsuen, Kowloon, China e o contrato para um crime perfeito...",
+      "destaque": false
+    },
+    {
+      "id": "11",
+      "titulo": "Juízo Final",
+      "descricao": "A morte misteriosa de um magnata desencadeia uma conspiração global.",
+      "imagem": "assets/image/11.jpg",
+      "detalhes": "Publicado em 1991.",
+      "fotos": [
+        "assets/image/11a.jpg",
+        "assets/image/11b.jpg",
+        "assets/image/11c.jpg"
+      ],
+      "ano": 1991,
+      "resumo": "O livro Juízo Final segue o Comandante Robert Bellamy em uma missão global repleta de segredos e perigos.",
+      "destaque": false
+    },
+    {
+      "id": "12",
+      "titulo": "Escrito nas Estrelas",
+      "descricao": "Três mulheres com destinos ligados por segredos familiares.",
+      "imagem": "assets/image/12.jpg",
+      "detalhes": "Publicado em 1992.",
+      "fotos": [
+        "assets/image/12a.jpg",
+        "assets/image/12b.jpg",
+        "assets/image/12c.jpg"
+      ],
+      "ano": 1992,
+      "resumo": "Uma história cheia de suspense e reviravoltas surpreendentes...",
+      "destaque": false
+    },
+    {
+      "id": "13",
+      "titulo": "Nada Dura para Sempre",
+      "descricao": "Três amigas e as emoções de trabalhar em um hospital movimentado.",
+      "imagem": "assets/image/13.jpg",
+      "detalhes": "Publicado em 1994.",
+      "fotos": [
+        "assets/image/13a.jpg",
+        "assets/image/13b.jpg",
+        "assets/image/13c.jpg"
+      ],
+      "ano": 1994,
+      "resumo": "Uma intrigante história de amor, ambição e traição, ambientada em Hollywood.",
+      "destaque": true
+    },
+    {
+      "id": "14",
+      "titulo": "Manhã, Tarde e Noite",
+      "descricao": "Harry Stanford, magnata, morre em circunstâncias misteriosas.",
+      "imagem": "assets/image/14.jpg",
+      "detalhes": "Publicado em 1995.",
+      "fotos": [
+        "assets/image/14a.jpg",
+        "assets/image/14b.jpg",
+        "assets/image/14c.jpg"
+      ],
+      "ano": 1995,
+      "resumo": "A morte de Harry Stanford beneficia todos os seus filhos — mas ninguém é inocente.",
+      "destaque": false
+    },
+    {
+      "id": "15",
+      "titulo": "O Plano Perfeito",
+      "descricao": "O governador do Kentucky e a ambiciosa Leslie Stewart entram em rota de colisão.",
+      "imagem": "assets/image/15.jpg",
+      "detalhes": "Publicado em 1997.",
+      "fotos": [
+        "assets/image/15a.jpg",
+        "assets/image/15b.jpg",
+        "assets/image/15c.jpg"
+      ],
+      "ano": 1997,
+      "resumo": "Um plano meticuloso que envolve crime, intriga e manipulação.",
+      "destaque": true
+    },
+    {
+      "id": "16",
+      "titulo": "Conte-me os Seus Sonhos",
+      "descricao": "Thriller sobre múltiplas personalidades e assassinatos.",
+      "imagem": "assets/image/16.jpg",
+      "detalhes": "Publicado em 1998.",
+      "fotos": [
+        "assets/image/16a.jpg",
+        "assets/image/16b.jpg",
+        "assets/image/16c.jpg"
+      ],
+      "ano": 1998,
+      "resumo": "Ashley, Toni e Alette — três mulheres, uma só mente. Uma série de assassinatos conecta suas vidas.",
+      "destaque": false
+    },
+    {
+      "id": "17",
+      "titulo": "O Céu Está Caindo",
+      "descricao": "Uma jornalista investiga mortes misteriosas em família poderosa.",
+      "imagem": "assets/image/17.jpg",
+      "detalhes": "Publicado em 2000.",
+      "fotos": [
+        "assets/image/17a.jpg",
+        "assets/image/17b.jpg",
+        "assets/image/17c.jpg"
+      ],
+      "ano": 2000,
+      "resumo": "Dana Evans descobre que a morte da família Winthrop pode esconder algo muito mais sombrio.",
+      "destaque": false
+    },
+    {
+      "id": "18",
+      "titulo": "O Outro Lado de Mim",
+      "descricao": "A história de uma jovem atriz envolvida em uma teia de traições.",
+      "imagem": "assets/image/18.jpg",
+      "detalhes": "Publicado em 2005.",
+      "fotos": [
+        "assets/image/18a.jpg",
+        "assets/image/18b.jpg",
+        "assets/image/18c.jpg"
+      ],
+      "ano": 2005,
+      "resumo": "Noelle Page, uma atriz em ascensão, descobre que o sucesso pode ter um preço mortal.",
+      "destaque": false
+    },
+    {
+      "id": "19",
+      "titulo": "A Senhora do Jogo",
+      "descricao": "Continuação de O Reverso da Medalha.",
+      "imagem": "assets/image/19.jpg",
+      "detalhes": "Publicado em 2009.",
+      "fotos": [
+        "assets/image/19a.jpg",
+        "assets/image/19b.jpg",
+        "assets/image/19c.jpg"
+      ],
+      "ano": 2009,
+      "resumo": "A saga da família Kruger-Brent continua entre poder, fortuna e vingança.",
+      "destaque": false
     }
   ]
 }

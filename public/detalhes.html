@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detalhes da Obra</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div class="container my-5">
+    <a href="index.html" class="btn btn-secondary mb-3">← Voltar</a>
+    <div id="detalhe-obra"></div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      const API = "http://localhost:3000/obras";
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+      const el = document.getElementById("detalhe-obra");
+
+      try {
+        const r = await fetch(`${API}/${id}`);
+        if (!r.ok) throw new Error();
+        const obra = await r.json();
+
+        let galeria = "";
+        if (obra.fotos?.length) {
+          galeria = `
+          <div id="carouselFotos" class="carousel slide mb-4" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-inner">
+              ${obra.fotos.map((f, i)=>`
+                <div class="carousel-item ${i===0?'active':''}">
+                  <img src="${f}" class="d-block w-100 rounded" style="height:260px;object-fit:contain;background:#fff">
+                </div>`).join("")}
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselFotos" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span><span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselFotos" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span><span class="visually-hidden">Próxima</span>
+            </button>
+          </div>`;
+        }
+
+        el.innerHTML = `
+          <div class="row g-4 align-items-start">
+            <div class="col-md-4 text-center">
+              <img src="${obra.imagem}" class="img-fluid rounded shadow-sm"
+                   style="max-height:400px;object-fit:contain;background:#fff;padding:10px;">
+            </div>
+            <div class="col-md-8">
+              <h2>${obra.titulo} <small class="text-muted">(${obra.ano})</small></h2>
+              <p><strong>Descrição:</strong> ${obra.descricao}</p>
+              <p><strong>Resumo:</strong> ${obra.resumo ?? "—"}</p>
+              ${galeria}
+            </div>
+          </div>`;
+      } catch {
+        el.innerHTML = `<p class="text-danger">Obra não encontrada.</p>`;
+      }
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

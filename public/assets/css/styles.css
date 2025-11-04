@@ -1,0 +1,238 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(135deg, #212529, #343a40);
+  color: #fff;
+  padding: 40px 0;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+header img {
+  border: 3px solid #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fff;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+#carouselDestaques {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+#carousel-inner-destaques {
+  background-color: #fff;
+}
+
+#carousel-inner-destaques img {
+  max-height: 380px;
+  object-fit: contain;
+  transition: transform 0.4s ease;
+}
+
+#carousel-inner-destaques img:hover {
+  transform: scale(1.03);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+.carousel-item {
+  transition: opacity 1s ease-in-out;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  display: block;
+  width: 100%;
+  height: 320px; 
+  object-fit: contain !important; 
+  object-position: center center; 
+  background-color: #fff; 
+  padding: 12px; 
+  border-bottom: 1px solid #eee;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card-text,
+.text-muted {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.btn-outline-secondary {
+  color: #495057;
+  border-color: #adb5bd;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  padding: 6px 14px;
+  border-radius: 6px;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #dee2e6;
+  color: #212529;
+  border-color: #adb5bd;
+}
+
+.btn-group .btn {
+  min-width: 80px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-group .btn:hover {
+  background-color: #e9ecef;
+  color: #212529;
+  border-color: #ced4da;
+}
+
+.form-box {
+  background-color: #f0f0f0;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.form-box h4 {
+  text-align: center;
+  color: #343a40;
+  font-weight: 600;
+}
+
+.form-box input {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.form-box input:focus {
+  outline: none;
+  border-color: #6c757d;
+  box-shadow: 0 0 4px rgba(108, 117, 125, 0.4);
+}
+
+.form-box button {
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  transition: background 0.2s ease;
+}
+
+.form-box button:hover {
+  background-color: #218838;
+}
+
+footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+  padding: 30px 0;
+  color: #212529;
+}
+
+footer img {
+  border: 2px solid #ccc;
+  border-radius: 50%;
+}
+
+footer a {
+  color: #343a40;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+
+  #carousel-inner-destaques img {
+    max-height: 280px;
+  }
+
+  .card-img-top {
+    height: 220px;
+  }
+
+  .form-box {
+    padding: 15px;
+  }
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body {
+  flex-grow: 1;
+  text-align: center;
+}
