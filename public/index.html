@@ -38,20 +38,23 @@
     <h2 class="mb-4">Principais Obras</h2>
 
     <div class="row" id="lista-obras"></div>
-
     <div class="mt-5 d-flex justify-content-center">
       <div class="form-box p-4 rounded-3 shadow-sm text-center">
-        <h5 class="mb-3 text-muted">Adicionar nova obra</h5>
-        <form id="formNovaObra" class="d-inline-flex flex-wrap justify-content-center gap-2">
-          <input type="text" id="titulo" class="form-control form-control-sm w-auto" placeholder="Título" required>
-          <input type="number" id="ano" class="form-control form-control-sm w-auto" placeholder="Ano" required>
-          <input type="text" id="descricao" class="form-control form-control-sm w-auto" placeholder="Descrição" required>
-          <button type="submit" class="btn btn-outline-success btn-sm">+</button>
-        </form>
-      </div>
+      <h5 class="mb-3 text-muted">Gerenciar obras</h5>
+        <div class="d-flex flex-wrap justify-content-center align-items-center gap-2">
+          <form id="formNovaObra" class="d-inline-flex flex-wrap justify-content-center gap-2 mb-0">
+            <input type="text" id="titulo" class="form-control form-control-sm w-auto" placeholder="Título" required>
+            <input type="number" id="ano" class="form-control form-control-sm w-auto" placeholder="Ano" required>
+            <input type="text" id="descricao" class="form-control form-control-sm w-auto" placeholder="Descrição" required>
+            <button type="submit" class="btn btn-outline-success btn-sm">
+             <i class="bi bi-plus-circle"></i> Adicionar
+            </button>
+          </form>
+            <a href="calendario.html" class="btn btn-outline-primary btn-sm align-self-center"><i class="bi bi-calendar3"></i> Ver calendário</a>
+          </div>
+        </div>
     </div>
   </main>
-
 
   <footer class="bg-light text-dark py-4 border-top">
     <div class="container d-flex flex-column flex-md-row justify-content-between align-items-start">

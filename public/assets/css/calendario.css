@@ -1,0 +1,120 @@
+body {
+  background: #f7f7fb;
+}
+
+header.bg-dark {
+  background: linear-gradient(135deg, #23272b, #343a40);
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+header p {
+  color: #d1d1d1;
+  font-size: 0.95rem;
+}
+
+header .btn-outline-light {
+  border: 1px solid #ccc;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+header .btn-outline-light:hover {
+  background-color: #fff;
+  color: #212529;
+  border-color: #fff;
+}
+
+#calendar {
+  transform: scale(0.8);
+  transform-origin: top center;
+  margin-top: -10px;
+}
+
+.event-destaque {
+  border-color: #ff6fa0 !important;
+  background-color: #ffd9e7 !important;
+}
+
+.fc .fc-daygrid-day-frame {
+  padding: 2px 1px !important;
+}
+
+.fc .fc-daygrid-day-number {
+  font-size: 0.75rem !important;
+  color: #444;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1rem !important;
+  font-weight: 600;
+}
+
+.fc .fc-button.fc-prev-button,
+.fc .fc-button.fc-next-button {
+  font-size: 1.5rem !important;
+  padding: 0.4rem 0.8rem !important;
+  background: transparent;
+  color: #333;
+  border: none;
+}
+
+.fc .fc-button.fc-prev-button:hover,
+.fc .fc-button.fc-next-button:hover {
+  color: #ff6fa0;
+  transform: scale(1.2);
+}
+
+.fc .fc-button:focus {
+  box-shadow: none !important;
+}
+
+.fc .fc-button {
+  font-size: 0.8rem !important;
+  padding: 0.3rem 0.6rem !important;
+}
+
+.fc-event {
+  font-size: 0.75rem !important;
+  padding: 1px 3px !important;
+  border-radius: 3px;
+}
+
+.fc-list-table td {
+  font-size: 0.8rem !important;
+  padding: 4px 6px !important;
+}
+
+.fc-list-year-view .fc-list-table th {
+  font-size: 0.9rem !important;
+}
+
+.tooltip-inner {
+  text-align: left;
+  max-width: 260px;
+}
+
+.tooltip-inner img {
+  width: 100%;
+  border-radius: .5rem;
+  margin-bottom: .5rem;
+}
+
+#calendar {
+  transform: scale(0.9);
+  transform-origin: top center;
+  margin-top: -10px;
+}
+
+@media (max-width: 992px) {
+  #calendar {
+    transform: scale(1);
+  }
+}

@@ -9,8 +9,8 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
+- Nome: Ronaldo Coelho Junior
+- Matricula: 898895
 - Proposta de projeto escolhida:
 - Breve descrição sobre seu projeto:
 
@@ -18,6 +18,9 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 << Coloque aqui uma breve explicação da implementação feita nessa etapa>>
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+    Nesta etapa foi implementada a funcionalidade dinâmica utilizando as bibliotecas FullCalendar e Chart.js. O calendário exibe os lançamentos das obras a partir do CRUD (db.json) e o gráfico apresenta as categorias das obras de forma interativa.
 
+<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+![Calendário de Lançamentos](public/assets/image/printTesteCRUD01.png)
 <<  COLOQUE A IMAGEM TELA 2 AQUI >>
+![Calendário de Lançamentos](public/assets/image/printTesteCRUD02.png)

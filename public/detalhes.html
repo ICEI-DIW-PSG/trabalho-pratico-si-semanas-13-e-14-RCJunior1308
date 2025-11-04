@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Detalhes da Obra</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body class="bg-light">
   <div class="container my-5">
     <a href="index.html" class="btn btn-secondary mb-3">← Voltar</a>
@@ -29,8 +31,8 @@
           galeria = `
           <div id="carouselFotos" class="carousel slide mb-4" data-bs-ride="carousel" data-bs-interval="2000">
             <div class="carousel-inner">
-              ${obra.fotos.map((f, i)=>`
-                <div class="carousel-item ${i===0?'active':''}">
+              ${obra.fotos.map((f, i) => `
+                <div class="carousel-item ${i === 0 ? 'active' : ''}">
                   <img src="${f}" class="d-block w-100 rounded" style="height:260px;object-fit:contain;background:#fff">
                 </div>`).join("")}
             </div>
@@ -63,4 +65,5 @@
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

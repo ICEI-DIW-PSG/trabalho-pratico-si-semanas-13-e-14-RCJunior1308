@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calendário de Lançamentos – Sidney Sheldon</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/bootstrap5@6.1.15/index.global.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.15/index.global.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/list@6.1.15/index.global.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/calendario.css">
+</head>
+
+<body class="py-4">
+  <div class="container">
+
+    <header class="bg-dark text-white rounded-3 p-4 mb-4 shadow-sm d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center">
+        <img src="assets/image/Sidney Sheldon.jpg" alt="Sidney Sheldon" class="rounded-circle me-3" width="80"
+          height="80" style="border: 3px solid #fff; box-shadow: 0 0 10px rgba(0,0,0,0.3);">
+        <div>
+          <h1 class="fw-bold mb-1">Calendário de Lançamentos</h1>
+          <p class="mb-0 text-light">Obras mapeadas por ano de publicação.</p>
+        </div>
+      </div>
+      <a href="index.html" class="btn btn-outline-light btn-sm">
+        <i class="bi bi-arrow-left"></i> Voltar
+      </a>
+    </header>
+
+    <div class="row g-4">
+
+      <div class="col-lg-7">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <div id="calendar"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="fw-bold mb-3 text-center">Categorias das Obras</h5>
+            <canvas id="graficoCategorias"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.15/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.15/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/list@6.1.15/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/bootstrap5@6.1.15/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.15/locales-all.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script src="assets/scripts/calendario.js"></script>
+</body>
+
+</html>

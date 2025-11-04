@@ -12,8 +12,9 @@
         "assets/image/1c.jpg"
       ],
       "ano": 1970,
-      "resumo": "A outra face é um thriller psicologicamente intenso. Vencedor do Edgar Allan Poe, um dos mais importantes prêmios para escritores de mistério e suspense, o livro conta a história de Judd Stevens...",
-      "destaque": true
+      "resumo": "Primeiro sucesso de Sidney Sheldon, revela os bastidores obscuros de Hollywood. Um thriller psicológico sobre segredos, ambição e o preço da fama.",
+      "destaque": true,
+      "categoria": "Suspense"
     },
     {
       "id": "2",
@@ -27,8 +28,9 @@
         "assets/image/2c.jpg"
       ],
       "ano": 1973,
-      "resumo": "A sensual Noelle é uma famosa atriz que sai dos bairros pobres de Marselha...",
-      "destaque": true
+      "resumo": "Uma história de amor, traição e vingança ambientada na Segunda Guerra Mundial. A bela Noelle busca revanche em um jogo perigoso de poder e desejo.",
+      "destaque": true,
+      "categoria": "Romance"
     },
     {
       "id": "3",
@@ -42,8 +44,9 @@
         "assets/image/3c.jpg"
       ],
       "ano": 1976,
-      "resumo": "Em Um Estranho no Espelho, Sidney Sheldon nos presenteia com uma história emocionante...",
-      "destaque": false
+      "resumo": "Explora a vida de um comediante e uma atriz marcados por ilusões e vaidades. Retrata os bastidores cruéis do sucesso e as máscaras da fama.",
+      "destaque": false,
+      "categoria": "Drama"
     },
     {
       "id": "4",
@@ -57,8 +60,9 @@
         "assets/image/4c.jpg"
       ],
       "ano": 1977,
-      "resumo": "A história gira em torno de Elizabeth Roffe, filha do empresário Sam Roffe, que é encontrado morto sob circunstâncias misteriosas...",
-      "destaque": false
+      "resumo": "Elizabeth Roffe investiga a morte misteriosa do pai, dono de um império. Suspense corporativo repleto de intrigas e traições familiares.",
+      "destaque": false,
+      "categoria": "Mistério"
     },
     {
       "id": "5",
@@ -72,8 +76,9 @@
         "assets/image/5c.jpg"
       ],
       "ano": 1980,
-      "resumo": "A Ira dos Anjos é uma obra intrigante escrita por Sidney Sheldon...",
-      "destaque": true
+      "resumo": "Jennifer Parker, jovem advogada, se envolve no mundo sombrio da máfia. Uma trama intensa sobre ambição, corrupção e escolhas perigosas.",
+      "destaque": true,
+      "categoria": "Suspense"
     },
     {
       "id": "6",
@@ -87,8 +92,9 @@
         "assets/image/6c.jpg"
       ],
       "ano": 1982,
-      "resumo": "Começa com o personagem Jamie McGregor, um garoto pobre, mas honesto e que sonhava em ser rico...",
-      "destaque": false
+      "resumo": "A saga da família Black, marcada por ambição, amor e vingança. Uma mulher poderosa enfrenta o preço do sucesso e do império que construiu.",
+      "destaque": false,
+      "categoria": "Saga Familiar"
     },
     {
       "id": "7",
@@ -102,8 +108,9 @@
         "assets/image/7c.jpg"
       ],
       "ano": 1985,
-      "resumo": "Tracy é uma jovem idealista, trabalha em um banco e está noiva do socialite Charles Stanhope III...",
-      "destaque": false
+      "resumo": "Tracy Whitney é traída e presa injustamente, mas renasce como golpista genial. Um dos maiores sucessos de Sheldon, mistura romance e vingança.",
+      "destaque": false,
+      "categoria": "Romance"
     },
     {
       "id": "8",
@@ -117,8 +124,9 @@
         "assets/image/8c.jpg"
       ],
       "ano": 1987,
-      "resumo": "A trama se desenrola em torno de um ambicioso e envolvente mundo de teatro, glamour e intrigas...",
-      "destaque": false
+      "resumo": "História de intrigas políticas e espionagem em meio à Guerra Fria. Personagens se veem presos entre o dever e a lealdade.",
+      "destaque": false,
+      "categoria": "Espionagem"
     },
     {
       "id": "9",
@@ -132,8 +140,9 @@
         "assets/image/9c.jpg"
       ],
       "ano": 1988,
-      "resumo": "O romance apresenta uma narrativa envolvente que mistura drama, romance e mistério...",
-      "destaque": false
+      "resumo": "Relata o conflito entre rebeldes e militares na Espanha. Suspense e drama misturam fé, amor e coragem em tempos de guerra.",
+      "destaque": false,
+      "categoria": "Drama"
     },
     {
       "id": "10",
@@ -147,8 +156,9 @@
         "assets/image/10c.jpg"
       ],
       "ano": 1979,
-      "resumo": "A sinistra rua Tung Tau Tsuen, Kowloon, China e o contrato para um crime perfeito...",
-      "destaque": false
+      "resumo": "Continuação de O Outro Lado da Meia-Noite, com novos segredos e conspirações. Um suspense intenso sobre memórias, identidade e poder.",
+      "destaque": false,
+      "categoria": "Romance"
     },
     {
       "id": "11",
@@ -162,8 +172,9 @@
         "assets/image/11c.jpg"
       ],
       "ano": 1991,
-      "resumo": "O livro Juízo Final segue o Comandante Robert Bellamy em uma missão global repleta de segredos e perigos.",
-      "destaque": false
+      "resumo": "O comandante Robert Bellamy investiga uma conspiração mundial após um acidente. Mistura espionagem, mistério e ficção científica em ritmo acelerado.",
+      "destaque": false,
+      "categoria": "Ficção"
     },
     {
       "id": "12",
@@ -177,8 +188,9 @@
         "assets/image/12c.jpg"
       ],
       "ano": 1992,
-      "resumo": "Uma história cheia de suspense e reviravoltas surpreendentes...",
-      "destaque": false
+      "resumo": "Três mulheres têm suas vidas entrelaçadas por segredos e destinos trágicos. Romance envolvente sobre amor, mistério e revelações familiares.",
+      "destaque": false,
+      "categoria": "Romance"
     },
     {
       "id": "13",
@@ -192,8 +204,9 @@
         "assets/image/13c.jpg"
       ],
       "ano": 1994,
-      "resumo": "Uma intrigante história de amor, ambição e traição, ambientada em Hollywood.",
-      "destaque": true
+      "resumo": "Três médicas enfrentam desafios em um hospital cheio de drama e dilemas éticos. Aborda amizade, amor e o preço das escolhas profissionais.",
+      "destaque": true,
+      "categoria": "Drama"
     },
     {
       "id": "14",
@@ -207,8 +220,9 @@
         "assets/image/14c.jpg"
       ],
       "ano": 1995,
-      "resumo": "A morte de Harry Stanford beneficia todos os seus filhos — mas ninguém é inocente.",
-      "destaque": false
+      "resumo": "A morte de um magnata revela segredos que abalam uma família inteira. Suspense familiar repleto de mistério, ambição e traição.",
+      "destaque": false,
+      "categoria": "Mistério"
     },
     {
       "id": "15",
@@ -222,8 +236,9 @@
         "assets/image/15c.jpg"
       ],
       "ano": 1997,
-      "resumo": "Um plano meticuloso que envolve crime, intriga e manipulação.",
-      "destaque": true
+      "resumo": "Leslie Stewart busca vingança contra o homem que destruiu sua reputação. Um jogo de poder entre política, mídia e manipulação.",
+      "destaque": true,
+      "categoria": "Thriller"
     },
     {
       "id": "16",
@@ -237,8 +252,9 @@
         "assets/image/16c.jpg"
       ],
       "ano": 1998,
-      "resumo": "Ashley, Toni e Alette — três mulheres, uma só mente. Uma série de assassinatos conecta suas vidas.",
-      "destaque": false
+      "resumo": "Três mulheres aparentemente diferentes escondem um terrível segredo. Um thriller psicológico sobre identidade e múltiplas personalidades.",
+      "destaque": false,
+      "categoria": "Thriller"
     },
     {
       "id": "17",
@@ -252,8 +268,9 @@
         "assets/image/17c.jpg"
       ],
       "ano": 2000,
-      "resumo": "Dana Evans descobre que a morte da família Winthrop pode esconder algo muito mais sombrio.",
-      "destaque": false
+      "resumo": "A jornalista Dana Evans investiga mortes suspeitas de uma família rica. Descobre uma teia de corrupção e assassinatos que ameaça sua vida.",
+      "destaque": false,
+      "categoria": "Suspense"
     },
     {
       "id": "18",
@@ -267,8 +284,9 @@
         "assets/image/18c.jpg"
       ],
       "ano": 2005,
-      "resumo": "Noelle Page, uma atriz em ascensão, descobre que o sucesso pode ter um preço mortal.",
-      "destaque": false
+      "resumo": "A jovem atriz Noelle se envolve em mentiras e traições na busca pelo sucesso. Um drama sobre fama, ambição e o lado obscuro do estrelato.",
+      "destaque": false,
+      "categoria": "Drama"
     },
     {
       "id": "19",
@@ -282,8 +300,9 @@
         "assets/image/19c.jpg"
       ],
       "ano": 2009,
-      "resumo": "A saga da família Kruger-Brent continua entre poder, fortuna e vingança.",
-      "destaque": false
+      "resumo": "Continuação de O Reverso da Medalha, acompanha a nova geração dos Kruger-Brent. Poder, dinheiro e vingança dominam essa disputa familiar épica.",
+      "destaque": false,
+      "categoria": "Saga Familiar"
     }
   ]
 }
